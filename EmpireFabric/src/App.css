@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana;
+}
+
+/* big-slider  */
+.big-slider {
+  position: relative;
+  
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  /* max-width: 1200px; */
+  /* padding: 20px; */
+}
+
+.header-content .line {
+  height: 3px;
+  width: 50px;
+  background: #fff;
+  margin: 20px auto;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+}
+
+.header-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.header-content h4 {
+  font-size: 1rem;
+}
+
+
+#footerSec {
+    border-top: 4px solid skyblue;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the element */
+}
+
+/* Custom scrollbar */
+.scrollbar::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #3B82F6; 
+  border-radius: 10px;
+  
+}
+
